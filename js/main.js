@@ -21,7 +21,6 @@
     scene.add(world);
 
     arcs = [];
-
     addArcs();
   }
 
