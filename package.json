@@ -1,0 +1,27 @@
+{
+  "name": "rotating-arcs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf public && mkdir public && cp -r {index.html,js} public/",
+    "deploy": "npm run build && gh-pagesify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shuhei/rotating-arcs.git"
+  },
+  "author": "Shuhei Kagawa <shuhei.kagawa@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shuhei/rotating-arcs/issues"
+  },
+  "homepage": "https://github.com/shuhei/rotating-arcs",
+  "devDependencies": {
+    "gh-pagesify": "^0.2.5"
+  },
+  "gh-pages": {
+    "repository": "shuhei/rotating-arcs"
+  }
+}
